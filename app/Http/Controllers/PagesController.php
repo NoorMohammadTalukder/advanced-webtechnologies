@@ -17,4 +17,20 @@ class PagesController extends Controller
         return view('products')
         ->with('products', $products);;
     }
+
+    public function teams(){
+        $teams=array("Alif", "Marfy", "Mehedi");
+        return view('teams')
+        ->with('teams', $teams);;
+    }
+
+    public function aboutUs(){
+        return view('aboutUs');
+    }
+
+    public function contactUs(){
+        return view('contactUs');
+    }
+   
+
 }

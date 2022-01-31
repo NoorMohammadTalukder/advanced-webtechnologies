@@ -24,4 +24,8 @@ Route::get('/products', [PagesController::class, 'products'])->name('products');
 
 Route::get('/teams', [PagesController::class, 'teams'])->name('teams');
 
+Route::get('/aboutUs', [PagesController::class, 'aboutUs'])->name('aboutUs');
+
+Route::get('/contactUs', [PagesController::class, 'contactUs'])->name('contactUs');
+
 
